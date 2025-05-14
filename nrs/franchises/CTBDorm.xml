@@ -544,9 +544,9 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
 
-                <contains id="M-20250504T073237-1" />
-                <contains id="M-20250504T073237-2" />
-                <contains id="M-20250504T073237-3" />
+                <contains id="M-20250504T073237-1" factor="0.1" />
+                <contains id="M-20250504T073237-2" factor="0.1" />
+                <contains id="M-20250504T073237-3" factor="0.1" />
             </entry>
 
             <entry
@@ -692,7 +692,8 @@
         <contributor id="M-20250417T125416-1" factor="0.05" />
         <contributor id="M-20250417T125416-2" factor="0.05" />
         <contributor id="M-20250417T125416-3" factor="0.05" />
-        <contributor id="M-20250417T125416" factor="0.85" />
+        <contributor id="M-20250417T125416-4" factor="0.05" />
+        <contributor id="M-20250417T125416" factor="0.8" />
     </meme>
 
     <!-- date from https://osu.ppy.sh/scores/4568666989 -->
