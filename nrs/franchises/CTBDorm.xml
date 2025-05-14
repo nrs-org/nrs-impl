@@ -580,7 +580,7 @@
                     rules="dah-entry-no-consumed;dah-no-progress"
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
-                <nei base="0.5" emotions="CP" />
+                <aei base="0.0" emotions="CP-0.5:MU-0.5" />
             </entry>
 
             <!-- fuck AI -->
@@ -589,7 +589,7 @@
                     rules="dah-entry-no-consumed;dah-no-progress"
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
-                <nei base="0.5" emotions="CP" />
+                <nei base="0.5" emotions="AU" />
             </entry>
 
             <!-- alice 2 -->
@@ -598,7 +598,7 @@
                     rules="dah-entry-no-consumed;dah-no-progress"
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
-                <nei base="0.5" emotions="CP" />
+                <aei base="0.0" emotions="MU" />
             </entry>
         </entry>
     </entry>
