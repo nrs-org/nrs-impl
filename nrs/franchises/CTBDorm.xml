@@ -690,6 +690,15 @@
         <!-- much of the lore is not included in songs (see the doc) -->
         <!-- so song factor values should be small -->
         <contributor id="M-20250417T125416-1" factor="0.05" />
-        <contributor id="M-20250417T125416" factor="0.95" />
+        <contributor id="M-20250417T125416-2" factor="0.05" />
+        <contributor id="M-20250417T125416-3" factor="0.05" />
+        <contributor id="M-20250417T125416" factor="0.85" />
+    </meme>
+
+    <!-- date from https://osu.ppy.sh/scores/4568666989 -->
+    <meme from="2025-03-24" to="today" strength="1.0">
+        <contributor id="M-20250504T073237-1" factor="0.4" />
+        <contributor id="M-20250504T073237-2" factor="0.3" />
+        <contributor id="M-20250504T073237-3" factor="0.3" />
     </meme>
 </document>
