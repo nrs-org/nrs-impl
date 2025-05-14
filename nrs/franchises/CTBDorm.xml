@@ -510,8 +510,6 @@
     <!-- pj escape my beloved -->
     <!-- escapism fantasy for the suicidal duybuans -->
     <entry id="F-20250417T125254" title="project ESCAPE">
-
-
         <entry
             id="M-20250417T125416"
             title="project ESCAPE: departure"
@@ -537,18 +535,24 @@
             </entry>
 
             <!-- aka the karaoke song -->
-            <entry id="$-2" title="Hololive Songs Compilation (CTB Girls' Dorm ver.)">
+            <entry
+                id="$-2"
+                title="Hololive Songs Compilation (CTB Girls' Dorm ver.)"
+            >
                 <validatorSuppress
                     rules="dah-entry-no-consumed;dah-no-progress"
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
 
-                <contains id="M-20250504T073237-1"></contains>
-                <contains id="M-20250504T073237-2"></contains>
-                <contains id="M-20250504T073237-3"></contains>
+                <contains id="M-20250504T073237-1" />
+                <contains id="M-20250504T073237-2" />
+                <contains id="M-20250504T073237-3" />
             </entry>
 
-            <entry id="$-3" title="Earphone to Semishigure (CTB Girls' Dorm ver.)">
+            <entry
+                id="$-3"
+                title="Earphone to Semishigure (CTB Girls' Dorm ver.)"
+            >
                 <validatorSuppress
                     rules="dah-entry-no-consumed;dah-no-progress"
                 />
@@ -565,8 +569,11 @@
             </entry>
         </entry>
 
-        <entry id="M-20250504T073237" title="project ESCAPE Karaoke Songs Collection"
-            entrytype="MusicAlbum">
+        <entry
+            id="M-20250504T073237"
+            title="project ESCAPE Karaoke Songs Collection"
+            entrytype="MusicAlbum"
+        >
             <!-- this song is peak actually -->
             <entry id="$-1" title="Ai-mai Chocolate (CTB Girls' Dorm ver.)">
                 <validatorSuppress
