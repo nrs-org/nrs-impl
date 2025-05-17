@@ -31,7 +31,12 @@
             <!-- the yapper-mona thread is now basically just talking about the novel lmfao -->
             <!-- (not that bad, but yeah) -->
             <!-- also 11 days left until one year anniversary of that thread! -->
-            <meme from="2024-09-01" to="today" strength="0.75" />
+
+            <!-- this lasts until burnout -->
+            <meme from="2024-09-01" to="2024-12-01" strength="0.75" />
+
+            <!-- things are a little bit better after conact -->
+            <meme from="2025-05-01" to="today" strength="0.75" />
 
             <!-- this is a novel it can't feature music i'm sorry guys -->
             <remix id="M-20241202T142410-1" />
@@ -630,7 +635,7 @@
     </remix>
 
     <!-- album 1 -->
-    <meme from="2023-11-20" to="today" strength="0.3">
+    <def name="Album1Contrib" vars="">
         <contributor id="M-20240815T041131-1" factor="0.3" />
         <contributor id="M-20240815T041131-2" factor="0.2" />
         <contributor id="M-20240815T041131-3" factor="0.05" />
@@ -640,10 +645,20 @@
         <contributor id="M-20240815T041131-7" factor="0.05" />
         <contributor id="M-20240815T041131-8" factor="0.05" />
         <contributor id="M-20240815T041131-9" factor="0.2" />
+        <children />
+    </def>
+
+    <!-- initial run -->
+    <meme from="2023-11-20" to="2024-05-25" strength="0.8">
+        <ref name="Album1Contrib" />
+    </meme>
+    <!-- legacy -->
+    <meme from="2024-05-26" to="today" strength="0.3">
+        <ref name="Album1Contrib" />
     </meme>
 
     <!-- tpa -->
-    <meme from="2024-05-26" to="today" strength="0.5">
+    <def name="TPAContrib" vars="">
         <contributor id="M-20240815T044532-1" factor="0.1" />
         <contributor id="M-20240815T044532-2" factor="0.05" />
         <contributor id="M-20240815T044532-3" factor="0.1" />
@@ -656,18 +671,39 @@
         <contributor id="A-MAL-52962" factor="0.18" />
         <contributor id="V-VNDB-17516" factor="0.18" />
         <contributor id="A-MAL-55102" factor="0.06" />
+        <children />
+    </def>
+
+    <!-- initial run -->
+    <meme from="2024-05-26" to="2024-10-10" strength="1.0">
+        <ref name="TPAContrib" />
+    </meme>
+    <!-- legacy -->
+    <meme from="2024-10-11" to="today" strength="0.4">
+        <ref name="TPAContrib" />
     </meme>
 
     <!-- chara album -->
-    <meme from="2024-12-05" to="today" strength="0.5">
+    <def name="CharaAlbumContrib" vars="">
         <contributor id="M-20241202T142410-1" factor="0.1" />
         <contributor id="M-20241202T142410-2" factor="0.1" />
         <contributor id="M-20241202T142410-3" factor="0.2" />
         <contributor id="M-20241202T142410-4" factor="0.3" />
         <contributor id="M-20241202T142410-5" factor="0.3" />
+        <children />
+    </def>
+
+    <!-- initial run -->
+    <meme from="2024-12-05" to="2024-12-31" strength="0.75">
+        <ref name="CharaAlbumContrib" />
+    </meme>
+    <!-- legacy -->
+    <meme from="2025-01-01" to="2024-12-31" strength="0.25">
+        <ref name="CharaAlbumContrib" />
     </meme>
 
     <!-- suicide album (late 2024-1 and early 2024-2) -->
+    <!-- initial run -->
     <meme from="2024-12-01" to="2025-01-07" strength="0.8">
         <contributor id="M-20240821T213821-1" factor="0.1" />
         <contributor id="M-20241202T142410-4" factor="0.4" />
