@@ -512,7 +512,7 @@
     </entry>
 
     <!-- album 1 -->
-    <def name="Album1Contrib" visibility="private">
+    <def name="Album1Contrib" vars="">
         <contributor id="M-20240815T041131-1" factor="0.3" />
         <contributor id="M-20240815T041131-2" factor="0.2" />
         <contributor id="M-20240815T041131-3" factor="0.05" />
@@ -522,6 +522,7 @@
         <contributor id="M-20240815T041131-7" factor="0.05" />
         <contributor id="M-20240815T041131-8" factor="0.05" />
         <contributor id="M-20240815T041131-9" factor="0.2" />
+        <children />
     </def>
 
     <!-- initial run -->
@@ -534,7 +535,7 @@
     </meme>
 
     <!-- tpa -->
-    <def name="TPAContrib">
+    <def name="TPAContrib" vars="">
         <contributor id="M-20240815T044532-1" factor="0.1" />
         <contributor id="M-20240815T044532-2" factor="0.05" />
         <contributor id="M-20240815T044532-3" factor="0.1" />
@@ -547,6 +548,7 @@
         <contributor id="A-MAL-52962" factor="0.18" />
         <contributor id="V-VNDB-17516" factor="0.18" />
         <contributor id="A-MAL-55102" factor="0.06" />
+        <children />
     </def>
 
     <!-- initial run -->
@@ -559,12 +561,13 @@
     </meme>
 
     <!-- chara album -->
-    <def name="CharaAlbumContrib">
+    <def name="CharaAlbumContrib" vars="">
         <contributor id="M-20241202T142410-1" factor="0.1" />
         <contributor id="M-20241202T142410-2" factor="0.1" />
         <contributor id="M-20241202T142410-3" factor="0.2" />
         <contributor id="M-20241202T142410-4" factor="0.3" />
         <contributor id="M-20241202T142410-5" factor="0.3" />
+        <children />
     </def>
 
     <!-- initial run -->
