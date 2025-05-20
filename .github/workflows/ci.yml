@@ -3,7 +3,7 @@ name: NRS CI
 on: [push, workflow_dispatch]
 
 permissions:
-  pull-requests: write
+  contents: write
 
 jobs:
   lint:
