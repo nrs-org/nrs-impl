@@ -598,12 +598,20 @@
             </entry>
 
             <!-- alice 2 -->
-            <entry id="$-3" title="Wakusei Loop (CTB Girl's Dorm ver.)">
+            <entry id="$-3" title="Wakusei Loop (CTB Girls' Dorm ver.)">
                 <validatorSuppress
                     rules="dah-entry-no-consumed;dah-no-progress"
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <aei base="0.0" emotions="MU" />
+            </entry>
+
+            <entry id="$-4" title="Kaishin no Ichigeki (CTB Girls' Dorm ver.)">
+                <validatorSuppress
+                    rules="dah-entry-no-consumed;dah-no-progress"
+                />
+                <role id="M-20240815T042406" roles="vocal+image" />
+                <aei base="0.5" emotions="MP-0.3:CP-0.5:MU-0.2" />
             </entry>
         </entry>
     </entry>
