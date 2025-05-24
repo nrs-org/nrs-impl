@@ -742,8 +742,9 @@
 
     <!-- date from https://osu.ppy.sh/scores/4568666989 -->
     <meme from="2025-03-24" to="today" strength="1.0">
-        <contributor id="M-20250504T073237-1" factor="0.4" />
-        <contributor id="M-20250504T073237-2" factor="0.3" />
-        <contributor id="M-20250504T073237-3" factor="0.3" />
+        <contributor id="M-20250504T073237-1" factor="0.2" />
+        <contributor id="M-20250504T073237-2" factor="0.2" />
+        <contributor id="M-20250504T073237-3" factor="0.2" />
+        <contributor id="M-20250504T073237-4" factor="0.4" />
     </meme>
 </document>
