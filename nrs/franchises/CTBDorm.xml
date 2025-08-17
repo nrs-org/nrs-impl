@@ -575,7 +575,7 @@
         <ref name="CharaAlbumContrib" />
     </meme>
     <!-- legacy -->
-    <meme from="2025-01-01" to="2024-12-31" strength="0.25">
+    <meme from="2025-01-01" to="today" strength="0.25">
         <ref name="CharaAlbumContrib" />
     </meme>
 
