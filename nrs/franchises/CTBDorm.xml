@@ -596,4 +596,9 @@
         <contributor id="M-20250221T163932-5" factor="0.15" />
         <contributor id="M-20250221T163932-6" factor="0.1" />
     </meme>
+    <!-- post conact, suicide album legacy -->
+    <meme from="2025-05-01" to="today" strength="0.75">
+        <!-- yeah its just apiss -->
+        <contributor id="M-20250221T163932-4" factor="1.0" />
+    </meme>
 </document>
