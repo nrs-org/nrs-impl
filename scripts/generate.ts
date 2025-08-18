@@ -19,9 +19,9 @@ const baseAnimeContextConfig: ContextConfig = {
   extensions: {
     DAH_additional_sources: {},
     DAH_entry_bestGirl: {},
+    DAH_entry_contains: {},
     DAH_entry_roles: {},
     DAH_entry_title: {},
-    DAH_combine_pow: {},
     DAH_entry_progress: {},
     DAH_factors: {},
     DAH_ir_source: {},

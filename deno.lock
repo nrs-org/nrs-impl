@@ -2,17 +2,30 @@
   "version": "4",
   "specifiers": {
     "npm:@prettier/plugin-xml@^3.1.1": "3.4.1_prettier@3.4.1",
+    "npm:@types/graphlib@2.1.12": "2.1.12",
+    "npm:@types/luxon@*": "3.7.1",
     "npm:fast-xml-parser@4": "4.2.7",
+    "npm:graphlib@2.1.8": "2.1.8",
     "npm:luxon@3.2.0": "3.2.0",
+    "npm:mathjs@14.6.0": "14.6.0",
     "npm:prettier@3": "3.4.1"
   },
   "npm": {
+    "@babel/runtime@7.28.3": {
+      "integrity": "sha512-9uIQ10o0WGdpP6GDhXcdOJPJuDgFtIDtN/9+ArJQ2NAfAmiuhTQdzkaTGR33v43GYS2UrSA0eX2pPPHoFVvpxA=="
+    },
     "@prettier/plugin-xml@3.4.1_prettier@3.4.1": {
       "integrity": "sha512-Uf/6/+9ez6z/IvZErgobZ2G9n1ybxF5BhCd7eMcKqfoWuOzzNUxBipNo3QAP8kRC1VD18TIo84no7LhqtyDcTg==",
       "dependencies": [
         "@xml-tools/parser",
         "prettier"
       ]
+    },
+    "@types/graphlib@2.1.12": {
+      "integrity": "sha512-abRfQWMphT2qlXwppQa+CTCtUz/GqxBeozQcMjnOFD/WOKD6sRgxkfG8vq1yagV03447BBzCYhuJ0wiNb+/r+Q=="
+    },
+    "@types/luxon@3.7.1": {
+      "integrity": "sha512-H3iskjFIAn5SlJU7OuxUmTEpebK6TKB8rxZShDslBMZJ5u9S//KM1sbdAisiSrqwLQncVjnpi2OK2J51h+4lsg=="
     },
     "@xml-tools/parser@1.0.11": {
       "integrity": "sha512-aKqQ077XnR+oQtHJlrAflaZaL7qZsulWc/i/ZEooar5JiWj1eLt0+Wg28cpa+XLney107wXqneC+oG1IZvxkTA==",
@@ -26,14 +39,52 @@
         "regexp-to-ast"
       ]
     },
+    "complex.js@2.4.2": {
+      "integrity": "sha512-qtx7HRhPGSCBtGiST4/WGHuW+zeaND/6Ld+db6PbrulIB1i2Ev/2UPiqcmpQNPSyfBKraC0EOvOKCB5dGZKt3g=="
+    },
+    "decimal.js@10.6.0": {
+      "integrity": "sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg=="
+    },
+    "escape-latex@1.2.0": {
+      "integrity": "sha512-nV5aVWW1K0wEiUIEdZ4erkGGH8mDxGyxSeqPzRNtWP7ataw+/olFObw7hujFWlVjNsaDFw5VZ5NzVSIqRgfTiw=="
+    },
     "fast-xml-parser@4.2.7": {
       "integrity": "sha512-J8r6BriSLO1uj2miOk1NW0YVm8AGOOu3Si2HQp/cSmo6EA4m3fcwu2WKjJ4RK9wMLBtg69y1kS8baDiQBR41Ig==",
       "dependencies": [
         "strnum"
       ]
     },
+    "fraction.js@5.3.0": {
+      "integrity": "sha512-hBziM3DYCyoJvzDWnRnHr/DPA4E4J/02gIn+reeWGUpZ1la0xBOI/S5FFdI2IFNeP/5YA+Lc58RngXHB65nKFg=="
+    },
+    "graphlib@2.1.8": {
+      "integrity": "sha512-jcLLfkpoVGmH7/InMC/1hIvOPSUh38oJtGhvrOFGzioE1DZ+0YW16RgmOJhHiuWTvGiJQ9Z1Ik43JvkRPRvE+A==",
+      "dependencies": [
+        "lodash"
+      ]
+    },
+    "javascript-natural-sort@0.7.1": {
+      "integrity": "sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw=="
+    },
+    "lodash@4.17.21": {
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+    },
     "luxon@3.2.0": {
       "integrity": "sha512-Namj3XqoJjFekq/JHQEaaAv4zyE/fyyDBrMEBnIL2s/X54SC8W5Ea0uej1TRXUArWec8OojsAVsGBYhNRjpMVw=="
+    },
+    "mathjs@14.6.0": {
+      "integrity": "sha512-5vI2BLB5GKQmiSK9BH6hVkZ+GgqpdnOgEfmHl7mqVmdQObLynr63KueyYYLCQMzj66q69mV2XZZGQqqxeftQbA==",
+      "dependencies": [
+        "@babel/runtime",
+        "complex.js",
+        "decimal.js",
+        "escape-latex",
+        "fraction.js",
+        "javascript-natural-sort",
+        "seedrandom",
+        "tiny-emitter",
+        "typed-function"
+      ]
     },
     "prettier@3.4.1": {
       "integrity": "sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg=="
@@ -41,8 +92,17 @@
     "regexp-to-ast@0.5.0": {
       "integrity": "sha512-tlbJqcMHnPKI9zSrystikWKwHkBqu2a/Sgw01h3zFjvYrMxEDYHzzoMZnUrbIfpTFEsoRnnviOXNCzFiSc54Qw=="
     },
+    "seedrandom@3.0.5": {
+      "integrity": "sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg=="
+    },
     "strnum@1.0.5": {
       "integrity": "sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA=="
+    },
+    "tiny-emitter@2.1.0": {
+      "integrity": "sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q=="
+    },
+    "typed-function@4.2.1": {
+      "integrity": "sha512-EGjWssW7Tsk4DGfE+5yluuljS1OGYWiI1J6e8puZz9nTMM51Oug8CD5Zo4gWMsOhq5BI+1bF+rWTm4Vbj3ivRA=="
     }
   },
   "redirects": {
@@ -118,6 +178,7 @@
     "https://deno.land/std@0.224.0/io/reader_from_stream_reader.ts": "a75bbc93f39df8b0e372cc1fbdc416a7cbf2a39fc4c09ddb057f1241100191c5",
     "https://deno.land/std@0.224.0/io/to_readable_stream.ts": "ed03a44a1ec1cc55a85a857acf6cac472035298f6f3b6207ea209f93b4aefb39",
     "https://deno.land/std@0.224.0/io/to_writable_stream.ts": "ef422e0425963c8a1e0481674e66c3023da50f0acbe5ef51ec9789efc3c1e2ed",
+    "https://deno.land/std@0.224.0/io/types.ts": "acecb3074c730b5ff487ba4fe9ce51e67bd982aa07c95e5f5679b7b2f24ad129",
     "https://deno.land/std@0.224.0/io/write_all.ts": "24aac2312bb21096ae3ae0b102b22c26164d3249dff96dbac130958aa736f038",
     "https://deno.land/std@0.224.0/path/_common/assert_path.ts": "dbdd757a465b690b2cc72fc5fb7698c51507dec6bfafce4ca500c46b76ff7bd8",
     "https://deno.land/std@0.224.0/path/_common/basename.ts": "569744855bc8445f3a56087fd2aed56bdad39da971a8d92b138c9913aecc5fa2",
@@ -223,11 +284,40 @@
     "https://deno.land/x/base64@v0.2.1/base64url.ts": "18bbf879b31f1f32cca8adaa2b6885ae325c2cec6a66c5817b684ca12c46ad5e",
     "https://deno.land/x/is_docker@v2.0.0/mod.ts": "4c8753346f4afbb6c251d7984a609aa84055559cf713fba828939a5d39c95cd0",
     "https://deno.land/x/is_wsl@v1.1.0/mod.ts": "30996b09376652df7a4d495320e918154906ab94325745c1399e13e658dca5da",
+    "https://deno.land/x/nano_jsx@v0.1.0/component.ts": "6bd3dab67754e91308df863e11e2b7945bbe0bf575b4bc529e8a9e02087eb732",
+    "https://deno.land/x/nano_jsx@v0.1.0/components/helmet.ts": "59e598dc79c7b18620de175c61eb26f4aeb6905a6654cd63359208a26471541e",
+    "https://deno.land/x/nano_jsx@v0.1.0/components/img.ts": "82a9f830394a7d6cd9b789b48fe1e70bc64eb151c4b410a3da74347c06acdae0",
+    "https://deno.land/x/nano_jsx@v0.1.0/components/index.ts": "8855ee8302a9a19f38202d4a7ff5b17e22942600da02356bdfbc80c99c5c55f5",
+    "https://deno.land/x/nano_jsx@v0.1.0/components/link.ts": "0f0b1c57dc8c466203105062335e0d9ded89a34e75d08b1bbeece198d42021cb",
+    "https://deno.land/x/nano_jsx@v0.1.0/components/router.ts": "186e77064a96c31cb66ff1935c93d91904347647fcb13b56b5875ea64905397d",
+    "https://deno.land/x/nano_jsx@v0.1.0/components/suspense.ts": "0711b7cdcd42b0b085972eca796d3ba7c436a736e1d2ce17db7e0cd1d3b928f5",
+    "https://deno.land/x/nano_jsx@v0.1.0/components/visible.ts": "f19487f7faff0bad38a5549f1efac1df351e83ee4a77ca5886412b439f4b6b53",
+    "https://deno.land/x/nano_jsx@v0.1.0/context.ts": "a65018beedf3e1863b96f9d99cf2d471c231a6ae0c77877a77754a398105f9fc",
+    "https://deno.land/x/nano_jsx@v0.1.0/core.ts": "9346346ba7ddc52057131953a333c3ffa12e2a93aaceb25dabbab4bf8f1a171c",
+    "https://deno.land/x/nano_jsx@v0.1.0/customElementsMode.ts": "61b9688ae89bfcc6109b72eaab4d82a69a8482d89770f3e2c1359b79bf57bb91",
+    "https://deno.land/x/nano_jsx@v0.1.0/fragment.ts": "9cfb0dcdcb02d5cc53f027b4b55609e4f9d6d9322b665292e572856f4b688569",
+    "https://deno.land/x/nano_jsx@v0.1.0/helpers.ts": "d904aa646534f1c0cf7c05a6c8e02231f906d962acb725c964aedbcf50216d85",
+    "https://deno.land/x/nano_jsx@v0.1.0/htm.ts": "d8d9cd4fb4ad4645bff3698c7eb96e7798022c5519d04e709ebde236edde156b",
+    "https://deno.land/x/nano_jsx@v0.1.0/htm/build.ts": "9d6b6eb407c0db2d1213a3f9c82efc66a2bec34c89976132ff13e3e095dcaaaf",
+    "https://deno.land/x/nano_jsx@v0.1.0/htm/constants.ts": "3f296f87f03bd0ba8d7673884a1f6c4c927a2774648eaa4fd3ca9e3c46c3f7b8",
+    "https://deno.land/x/nano_jsx@v0.1.0/htm/index.ts": "29912b9f7a760884fce79caca82649b9772cfa3c3272e0426a4ce377b67d70d5",
+    "https://deno.land/x/nano_jsx@v0.1.0/index.ts": "0f39c911a39c61cb39f9bd8a2481500126dcb1b2a826d5b4523dd47a08b6938d",
+    "https://deno.land/x/nano_jsx@v0.1.0/jsx.ts": "7d5b4d4a249fba1a42f2016f54f71ca049d96ff490e098db4a19b2a9b197b952",
+    "https://deno.land/x/nano_jsx@v0.1.0/lazy.ts": "f8b8a2b915daff1fb70704ffad5171c805f1e28778b5cd0f8c827780762776c4",
+    "https://deno.land/x/nano_jsx@v0.1.0/mod.ts": "3dda2bc0dbee9abd01c03acf43ab55a7854952afe0450245fc2ad12eb9bd9598",
+    "https://deno.land/x/nano_jsx@v0.1.0/regexDom.ts": "de82fd3110c5a367e3d4ba9b774cfef3baf995deff455edc7363551d79089c90",
+    "https://deno.land/x/nano_jsx@v0.1.0/ssr.ts": "1ab6c17f41f612fe409d29d81ce1f17692ff02e5abea6ef4080cabecafc246dd",
+    "https://deno.land/x/nano_jsx@v0.1.0/state.ts": "cfc6ca6eb5e65f4cd60717a0a96ce604053bacf6e0b8835afbe22327e9979a1b",
+    "https://deno.land/x/nano_jsx@v0.1.0/store.ts": "bf075833a656fc87b2a24c486bb3f77e13f19d6d9efcc42e31ffb6f24ec8eb93",
+    "https://deno.land/x/nano_jsx@v0.1.0/types.ts": "fb338d7fa4422a92c442d14e073a2deb01d42b017fcd36013a1f6554e17c5449",
+    "https://deno.land/x/nano_jsx@v0.1.0/version.ts": "d7f3813a3b1c490f16e77047483b0dc52cc0cec6cb1b73d6926cf9ad96129a59",
+    "https://deno.land/x/nano_jsx@v0.1.0/withStyles.ts": "8aae4c8e79319fe991d49dd8ccc927c221786dfe58de640dba9d9885ce0dd4b7",
     "https://deno.land/x/open@v1.0.0/index.ts": "bb328bed0d9660ccc747fb7e8fc8f85b9c0102b09a56aceb486321837d33af23",
     "https://deno.land/x/pkce_deno@v2.0/mod.ts": "364bb9559c9e6b53ee14ac2adb1353554928a4a21d448ade6248c5c89b0e1cf0",
     "https://deno.land/x/pkce_deno@v2.0/src/pkce.ts": "994ef909e44cd676c460dcce22b9457a779814cdfa1aaea2452eaee051fbfb96",
     "https://deno.land/x/sha256@v1.0.2/deps.ts": "2e1af51a48c8507017fdb057b950366601b177fb7e73d5de54c1b3e0e115d72e",
     "https://deno.land/x/sha256@v1.0.2/mod.ts": "f109aa5eeb201a0cbfaf44950b70a429838b187e8a84c5b810c1ac84953427cc",
+    "https://deno.land/x/xml4jsx@1.0.0/mod.ts": "53028a64065ee78a63807fd7d1fabdb4337703d09ca3a60985f5823033ee3ca8",
     "https://denopkg.com/chiefbiiko/std-encoding@v1.0.0/mod.ts": "4a927e5cd1d9b080d72881eb285b3b94edb6dadc1828aeb194117645f4481ac0",
     "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v2.1.0/deps.ts": "9726584ef5caac01697c8afa25431d64acc70cba5f065516071017c62921b8f5",
     "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v2.1.0/exts/DAH_additional_sources.ts": "5ac0896e268eedebc9444b73e5902e587cdad34f341c5f0fdc0b7a2a035dd6ad",
@@ -354,6 +444,30 @@
     "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v2.2.0/src/math.ts": "a21c3f6941aa13c82dd19c40d4b81a36822d26c247a59903830fcdf5a21ad563",
     "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v2.2.0/src/process.ts": "e0d317cea3af3e03228bfb77d2d8e1ffa3d795b5076fa308671637b441f1899e",
     "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v2.2.0/src/utils.ts": "09ff8bc9ec6eef6b6f27d20c2f4db0b9bf88e090567745f7c21ce8268be032f2",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/deps.ts": "f381d00e67df52d4e5951064c10c66fc37f81443e089b2e1e471bafa609ecf26",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_additional_sources.ts": "5ac0896e268eedebc9444b73e5902e587cdad34f341c5f0fdc0b7a2a035dd6ad",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_anime_normalize.ts": "5b29a4d0d60f6135d1c8b8c8cf875213705362b07285288c0a7ae183a6cb8a3c",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_anime_normalize_bulk.json": "7d15e8cf41e687116eec82e781dcbb6d8472db1ca5d9a52b360764e296c6f115",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_entry_bestGirl.ts": "b878ce342b57e05b74abfb4297ec5937987e549dac076887cafd62e09520c03d",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_entry_contains.ts": "476bcb866ecfb0ee18f9a715605ab704b1b3a5b021c6aa7c6df3f10b8815a7cc",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_entry_progress.ts": "17dd49f9de48447ef762b9a1ba61ef09034df2b83ec1152cd3510ca4c5fa2607",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_entry_queue.ts": "30a653f64b6d30f6a423441983eddcc6426a4a312f8395eff46e81f1f5aac90c",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_entry_roles.ts": "31b921e31f29e429a01a216d2aec22cbb35a20016cbce2d5f29a80059b17bb1c",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_entry_title.ts": "719099a0f3a0188426baa2e4867f7274ca25f1dc372c5b9f924bd4dfb0ac139e",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_entry_type.ts": "4bde8d630b90d7d76e4c6e3b20e1ebdc5ed0104462f8605d952bddd094bfb1fa",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_factors.ts": "f8a3e84c6db1310cf989e07d6a23bf1a6e00f5692d2c4429ea3225e36902cbad",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_ir_source.ts": "0c3ea739d70fb8d7c60866a0ecb95172ca760680db93bb0dbca42103d47c4a18",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_overall_score.ts": "dd559fef3d05ccbe0fa4743b99337c235f6c67a6e1f709a489a95b72dd19ca54",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_serialize.ts": "e387b02debcc8269509e2b1b26d290f552d6d783f5d4ebc6da09cf96de1c56b8",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_serialize_json.ts": "91d003297e59dec73a3083459fb45322926e770d9750ed428784f67fedc83d9c",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_standards.ts": "f84fe1ee21dbfc0464a94eb12d9d7b886cabab6544c1844ac6d03e95ab026750",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/exts/DAH_validator_suppress.ts": "18a3679fc93a0c5377d7119fcd8d2d38792ba5153078e43916d49e8ea7597c19",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/mod.ts": "3afcf2d1a208c9b423970430f0313fc745d28f79f1fabace0dada86e718c89b2",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/src/data.ts": "ef4f1d39ab0d2e5c8603690bbebc7051324db213beaba64c423d12bd25145c65",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/src/ext.ts": "624ff419fbbd604b935fc739bd266c168d332b3c9c1213153823240d7bce90f0",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/src/math.ts": "1bc2816a10704323b6855044e13bfa845942213851c3062f34127b38fc7069da",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/src/process.ts": "08d954b5be83732f729d08ed0f1949c61c4e24177e7a80dabce86f28ed640c0b",
+    "https://raw.githubusercontent.com/btmxh/nrs-lib-ts/v3.0.0/src/utils.ts": "8056d33f85c7ecd83eb45e0b47ada4393ccb2fe48f6aed05488d7ab1e9362887",
     "https://raw.githubusercontent.com/btmxh/nrsml/v2.4.1/deps.ts": "85cdde6feaa96c49dd4966a43ad5d4612d3176fc52f81c991d7ce1fcfd096474",
     "https://raw.githubusercontent.com/btmxh/nrsml/v2.4.1/mod.ts": "42b7f9d6be557e292eb1218ba8b79227348aefc0f358ad2b00423bee331f7568",
     "https://raw.githubusercontent.com/btmxh/nrsml/v2.4.1/nrsml/macro.ts": "3dc1eda0ec6c4ccd9edb98703116b21bdd4c05b165085bdbe042fb012286eca8",
@@ -383,7 +497,41 @@
     "https://raw.githubusercontent.com/btmxh/nrsml/v2.5.0/mod.ts": "42b7f9d6be557e292eb1218ba8b79227348aefc0f358ad2b00423bee331f7568",
     "https://raw.githubusercontent.com/btmxh/nrsml/v2.5.0/nrsml/macro.ts": "3dc1eda0ec6c4ccd9edb98703116b21bdd4c05b165085bdbe042fb012286eca8",
     "https://raw.githubusercontent.com/btmxh/nrsml/v2.5.0/nrsml/parse.ts": "cd38d8376333354ffeda84a5d81cf823c4cc5cbaf274ba45b017c2fea4571e58",
-    "https://raw.githubusercontent.com/btmxh/nrsml/v2.5.0/nrsml/utils.ts": "bc1b7db22b482a799a5412306532dadb32860106b9a7ecb9cf14efcfd374724a"
+    "https://raw.githubusercontent.com/btmxh/nrsml/v2.5.0/nrsml/utils.ts": "bc1b7db22b482a799a5412306532dadb32860106b9a7ecb9cf14efcfd374724a",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/deps.ts": "f381d00e67df52d4e5951064c10c66fc37f81443e089b2e1e471bafa609ecf26",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_additional_sources.ts": "5ac0896e268eedebc9444b73e5902e587cdad34f341c5f0fdc0b7a2a035dd6ad",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_anime_normalize.ts": "5b29a4d0d60f6135d1c8b8c8cf875213705362b07285288c0a7ae183a6cb8a3c",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_anime_normalize_bulk.json": "7d15e8cf41e687116eec82e781dcbb6d8472db1ca5d9a52b360764e296c6f115",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_entry_bestGirl.ts": "b878ce342b57e05b74abfb4297ec5937987e549dac076887cafd62e09520c03d",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_entry_contains.ts": "476bcb866ecfb0ee18f9a715605ab704b1b3a5b021c6aa7c6df3f10b8815a7cc",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_entry_progress.ts": "17dd49f9de48447ef762b9a1ba61ef09034df2b83ec1152cd3510ca4c5fa2607",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_entry_queue.ts": "30a653f64b6d30f6a423441983eddcc6426a4a312f8395eff46e81f1f5aac90c",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_entry_roles.ts": "31b921e31f29e429a01a216d2aec22cbb35a20016cbce2d5f29a80059b17bb1c",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_entry_title.ts": "719099a0f3a0188426baa2e4867f7274ca25f1dc372c5b9f924bd4dfb0ac139e",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_entry_type.ts": "4bde8d630b90d7d76e4c6e3b20e1ebdc5ed0104462f8605d952bddd094bfb1fa",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_factors.ts": "f8a3e84c6db1310cf989e07d6a23bf1a6e00f5692d2c4429ea3225e36902cbad",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_ir_source.ts": "0c3ea739d70fb8d7c60866a0ecb95172ca760680db93bb0dbca42103d47c4a18",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_overall_score.ts": "dd559fef3d05ccbe0fa4743b99337c235f6c67a6e1f709a489a95b72dd19ca54",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_serialize.ts": "e387b02debcc8269509e2b1b26d290f552d6d783f5d4ebc6da09cf96de1c56b8",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_serialize_json.ts": "91d003297e59dec73a3083459fb45322926e770d9750ed428784f67fedc83d9c",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_standards.ts": "f84fe1ee21dbfc0464a94eb12d9d7b886cabab6544c1844ac6d03e95ab026750",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/exts/DAH_validator_suppress.ts": "18a3679fc93a0c5377d7119fcd8d2d38792ba5153078e43916d49e8ea7597c19",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/mod.ts": "3afcf2d1a208c9b423970430f0313fc745d28f79f1fabace0dada86e718c89b2",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/src/data.ts": "ef4f1d39ab0d2e5c8603690bbebc7051324db213beaba64c423d12bd25145c65",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/src/ext.ts": "624ff419fbbd604b935fc739bd266c168d332b3c9c1213153823240d7bce90f0",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/src/math.ts": "1bc2816a10704323b6855044e13bfa845942213851c3062f34127b38fc7069da",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/src/process.ts": "08d954b5be83732f729d08ed0f1949c61c4e24177e7a80dabce86f28ed640c0b",
+    "https://raw.githubusercontent.com/nrs-org/nrs-lib-ts/v3.0.0/src/utils.ts": "8056d33f85c7ecd83eb45e0b47ada4393ccb2fe48f6aed05488d7ab1e9362887",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.0/deps.ts": "d09dd92ad3ace522c6a17b9d8bc138ce435f58b31224ca2be2067b092251ef4d",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.0/mod.ts": "42b7f9d6be557e292eb1218ba8b79227348aefc0f358ad2b00423bee331f7568",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.0/nrsml/macro.ts": "3dc1eda0ec6c4ccd9edb98703116b21bdd4c05b165085bdbe042fb012286eca8",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.0/nrsml/parse.ts": "4c906ea9f4e01159b4b03082c70815a90649e77d492ec5d61614a11b6ca91203",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.0/nrsml/utils.ts": "bc1b7db22b482a799a5412306532dadb32860106b9a7ecb9cf14efcfd374724a",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.1/deps.ts": "6312816da7c3f91fe2f19e7931b35b49b03105a19288ae9c590fff2ae4b7eec5",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.1/mod.ts": "42b7f9d6be557e292eb1218ba8b79227348aefc0f358ad2b00423bee331f7568",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.1/nrsml/macro.ts": "3dc1eda0ec6c4ccd9edb98703116b21bdd4c05b165085bdbe042fb012286eca8",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.1/nrsml/parse.ts": "4c906ea9f4e01159b4b03082c70815a90649e77d492ec5d61614a11b6ca91203",
+    "https://raw.githubusercontent.com/nrs-org/nrsml/v3.0.1/nrsml/utils.ts": "bc1b7db22b482a799a5412306532dadb32860106b9a7ecb9cf14efcfd374724a"
   },
   "workspace": {
     "packageJson": {
