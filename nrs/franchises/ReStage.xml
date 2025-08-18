@@ -1358,7 +1358,7 @@
         <ref name="ReStepTrackMemeImpact" a_base="0.2" a_era="arc1" />
     </meme>
 
-    <ref name="RSTSB69DuopolyEra" a_strikes="0.6">
+    <ref name="RSTSB69DuopolyEra" a_strength="0.6">
         <contributor id="A-MAL-38009" factor="0.5" />
         <contributor id="GF-VGMDB-7059" factor="0.05" />
         <!-- her theme song: https://www.youtube.com/watch?v=Ux5cQbO_ybw -->
