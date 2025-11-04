@@ -44,6 +44,7 @@
             <remix id="M-20241202T142410-3" />
             <remix id="M-20241202T142410-4" />
             <remix id="M-20241202T142410-5" />
+            <remix id="M-20241202T142410-6" />
             <writing
                 character="0.75"
                 story="0.5"
@@ -437,7 +438,29 @@
             <aei base="0.0" emotions="CU" />
             <musicConsumedProgress length="5:36" />
         </entry>
+
+        <!-- absolute PEAK absolute SUICIDE absolute ESCAPE -->
+        <!-- ☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️ -->
+        <entry
+            id="$-6"
+            title="Moshimo Unmei no Hito ga Iru no Nara (CTB Girls' Dorm ver.)"
+        >
+            <validatorSuppress rules="dah-entry-no-consumed;dah-no-progress" />
+            <role id="M-20240815T042406" roles="vocal+image" />
+            <!-- suicidal undertones -->
+            <aei base="0.0" emotions="AU-0.5:MU-0.5" />
+            <!-- anirevo atmfarm -->
+            <nei base="0.2" emotions="CP" />
+            <musicConsumedProgress length="5:25" />
+        </entry>
     </entry>
+
+    <!-- yapper love letter -->
+    <aei base="0.5" emotions="MP">
+        <contributor id="M-20241202T142410-6" factor="0.7" />
+        <contributor id="L-20241109T062928" factor="0.2" />
+        <contributor id="L-MAL-139873" factor="0.1" />
+    </aei>
 
     <!-- YOOOOOO -->
     <!-- WYSI THE NUMBER 621 -->
