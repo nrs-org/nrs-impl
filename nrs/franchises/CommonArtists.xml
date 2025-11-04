@@ -1102,14 +1102,17 @@
     </entry>
 
     <entry id="M-VGMDB-AR-9833" title="Nishino Kana">
-        <entry id="M-20251104T141828" title="Moshimo Unmei no Hito ga Iru no Nara"
-            entrytype="MusicAlbum">
+        <entry
+            id="M-20251104T141828"
+            title="Moshimo Unmei no Hito ga Iru no Nara"
+            entrytype="MusicAlbum"
+        >
             <entry id="$-1" title="Moshimo Unmei no Hito ga Iru no Nara">
-                <music base="0.8"></music>
+                <music base="0.8" />
                 <!-- old jpop cp feeling -->
-                <nei base="0.5" emotions="CP"></nei>
-                <musicConsumedProgress length="5:25"></musicConsumedProgress>
-                <remix id="M-20241202T142410-6"></remix>
+                <nei base="0.5" emotions="CP" />
+                <musicConsumedProgress length="5:25" />
+                <remix id="M-20241202T142410-6" />
             </entry>
         </entry>
     </entry>

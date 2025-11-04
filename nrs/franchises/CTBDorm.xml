@@ -44,7 +44,7 @@
             <remix id="M-20241202T142410-3" />
             <remix id="M-20241202T142410-4" />
             <remix id="M-20241202T142410-5" />
-            <remix id="M-20241202T142410-6"></remix>
+            <remix id="M-20241202T142410-6" />
             <writing
                 character="0.75"
                 story="0.5"
@@ -441,13 +441,16 @@
 
         <!-- absolute PEAK absolute SUICIDE absolute ESCAPE -->
         <!-- ☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️ -->
-        <entry id="$-6" title="Moshimo Unmei no Hito ga Iru no Nara (CTB Girls' Dorm ver.)">
+        <entry
+            id="$-6"
+            title="Moshimo Unmei no Hito ga Iru no Nara (CTB Girls' Dorm ver.)"
+        >
             <validatorSuppress rules="dah-entry-no-consumed;dah-no-progress" />
             <role id="M-20240815T042406" roles="vocal+image" />
             <!-- suicidal undertones -->
             <aei base="0.0" emotions="AU-0.5:MU-0.5" />
             <!-- anirevo atmfarm -->
-            <nei base="0.2" emotions="CP"></nei>
+            <nei base="0.2" emotions="CP" />
             <musicConsumedProgress length="5:25" />
         </entry>
     </entry>
