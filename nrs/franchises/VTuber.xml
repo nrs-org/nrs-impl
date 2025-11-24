@@ -132,7 +132,11 @@
         <entry id="M-VGMDB-AR-35747" title="Sakura Miko" />
         <entry id="M-VGMDB-AR-44889" title="Minato Aqua" />
         <entry id="M-VGMDB-AR-68363" title="Nakiri Ayame" />
-        <entry id="M-20251125T015400" title="Tsunomaki Watame" />
+        <entry
+            id="M-20251125T015400"
+            title="Tsunomaki Watame"
+            entrytype="MusicArtist"
+        />
 
         <entry
             id="M-20230730T110147"
