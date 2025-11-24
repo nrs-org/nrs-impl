@@ -786,13 +786,7 @@
         <!-- yeah its just apiss -->
         <contributor id="M-20250221T163932-4" factor="1.0" />
     </meme>
-    <
-    <
-    <
-    <
-    <
-    <
-    < HEAD
+
     <!-- from date is #626 discussion creation date, -->
     <!-- expect it to be a couple days earlier -->
     <meme from="2025-03-14" to="today" strength="1.0">
@@ -807,17 +801,16 @@
 
     <!-- date from https://osu.ppy.sh/scores/4568666989 -->
     <meme from="2025-03-24" to="today" strength="1.0">
-    <contributor id="M-20250504T073237-1" factor="0.2" />
-    <contributor id="M-20250504T073237-2" factor="0.2" />
-    <contributor id="M-20250504T073237-3" factor="0.2" />
-    <contributor id="M-20250504T073237-4" factor="0.4" />
-    ||||||| abdd34e
-    =======
+        <contributor id="M-20250504T073237-1" factor="0.2" />
+        <contributor id="M-20250504T073237-2" factor="0.2" />
+        <contributor id="M-20250504T073237-3" factor="0.2" />
+        <contributor id="M-20250504T073237-4" factor="0.4" />
+    </meme>
 
     <!-- third suicidal era songs -->
     <!-- from is the "svtb" date -->
     <meme from="2025-09-25" to="today" strength="0.5">
         <contributor id="M-20251125T020944-1" factor="0.7" />
-        <contributor id="M-20251125T020944-3"
-            factor="0.3" /> >>>>>>> ep </meme>
+        <contributor id="M-20251125T020944-3" factor="0.3" />
+    </meme>
 </document>
