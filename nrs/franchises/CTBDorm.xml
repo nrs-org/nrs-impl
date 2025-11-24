@@ -44,6 +44,9 @@
             <remix id="M-20241202T142410-3" />
             <remix id="M-20241202T142410-4" />
             <remix id="M-20241202T142410-5" />
+            <remix id="M-20241202T142410-6" />
+            <remix id="M-20251125T020944-3" />
+
             <writing
                 character="0.75"
                 story="0.5"
@@ -438,7 +441,30 @@
             <aei base="0.0" emotions="CU" />
             <musicConsumedProgress length="5:36" />
         </entry>
+
+        <!-- absolute PEAK absolute SUICIDE absolute ESCAPE -->
+        <!-- ☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️ -->
+        <entry
+            id="$-6"
+            title="Moshimo Unmei no Hito ga Iru no Nara (CTB Girls' Dorm ver.)"
+        >
+            <validatorSuppress rules="dah-entry-no-consumed;dah-no-progress" />
+            <role id="M-20240815T042406" roles="vocal+image" />
+            <!-- suicidal undertones -->
+            <aei base="0.0" emotions="AU-0.5:MU-0.5" />
+            <!-- anirevo atmfarm -->
+            <nei base="0.2" emotions="CP" />
+            <musicConsumedProgress length="5:25" />
+        </entry>
     </entry>
+
+    <!-- yapper love letter -->
+    <aei base="0.8" emotions="MP">
+        <contributor id="M-20241202T142410-6" factor="0.5" />
+        <contributor id="M-20251125T020944-3" factor="0.2" />
+        <contributor id="L-20241109T062928" factor="0.2" />
+        <contributor id="L-MAL-139873" factor="0.1" />
+    </aei>
 
     <!-- YOOOOOO -->
     <!-- WYSI THE NUMBER 621 -->
@@ -642,6 +668,28 @@
         <contributor id="girls' last tour [null entry]" factor="0.025" />
     </remix>
 
+    <!-- second suicide album (not really this is an EP) -->
+    <entry
+        id="M-20251125T020944"
+        title="And so, I'll keep wishing for that day to come."
+        entrytype="MusicAlbum"
+    >
+        <!-- nice wordplay bro -->
+        <entry id="$-1" title="Kitto (CTB Girls' Dorm ver.)">
+            <validatorSuppress rules="dah-entry-no-consumed;dah-no-progress" />
+            <role id="M-20240815T042406" roles="vocal+image" />
+            <nei base="0.9" emotions="MU-0.8:CP-0.2" />
+        </entry>
+
+        <contains id="M-20241202T142410-6" />
+
+        <entry id="$-3" title="Glow Embrace (CTB Girls' Dorm ver.)">
+            <validatorSuppress rules="dah-entry-no-consumed;dah-no-progress" />
+            <role id="M-20240815T042406" roles="vocal+image" />
+            <nei base="1.0" emotions="MU-0.8:CP-0.2" />
+        </entry>
+    </entry>
+
     <!-- album 1 -->
     <def name="Album1Contrib" vars="">
         <contributor id="M-20240815T041131-1" factor="0.3" />
@@ -696,8 +744,14 @@
         <contributor id="M-20241202T142410-1" factor="0.1" />
         <contributor id="M-20241202T142410-2" factor="0.1" />
         <contributor id="M-20241202T142410-3" factor="0.2" />
-        <contributor id="M-20241202T142410-4" factor="0.3" />
-        <contributor id="M-20241202T142410-5" factor="0.3" />
+        <contributor id="M-20241202T142410-4" factor="0.25" />
+        <contributor id="M-20241202T142410-5" factor="0.25" />
+        <contributor id="M-20241202T142410-6" factor="0.1" />
+        <children />
+    </def>
+
+    <def name="SuicideEPContrib" vars="">
+        <contributor id="M-20241202T142410-1" factor="0.1" />
         <children />
     </def>
 
@@ -732,6 +786,13 @@
         <!-- yeah its just apiss -->
         <contributor id="M-20250221T163932-4" factor="1.0" />
     </meme>
+    <
+    <
+    <
+    <
+    <
+    <
+    < HEAD
     <!-- from date is #626 discussion creation date, -->
     <!-- expect it to be a couple days earlier -->
     <meme from="2025-03-14" to="today" strength="1.0">
@@ -746,9 +807,17 @@
 
     <!-- date from https://osu.ppy.sh/scores/4568666989 -->
     <meme from="2025-03-24" to="today" strength="1.0">
-        <contributor id="M-20250504T073237-1" factor="0.2" />
-        <contributor id="M-20250504T073237-2" factor="0.2" />
-        <contributor id="M-20250504T073237-3" factor="0.2" />
-        <contributor id="M-20250504T073237-4" factor="0.4" />
-    </meme>
+    <contributor id="M-20250504T073237-1" factor="0.2" />
+    <contributor id="M-20250504T073237-2" factor="0.2" />
+    <contributor id="M-20250504T073237-3" factor="0.2" />
+    <contributor id="M-20250504T073237-4" factor="0.4" />
+    ||||||| abdd34e
+    =======
+
+    <!-- third suicidal era songs -->
+    <!-- from is the "svtb" date -->
+    <meme from="2025-09-25" to="today" strength="0.5">
+        <contributor id="M-20251125T020944-1" factor="0.7" />
+        <contributor id="M-20251125T020944-3"
+            factor="0.3" /> >>>>>>> ep </meme>
 </document>
