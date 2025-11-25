@@ -555,7 +555,7 @@
         <entry id="$-3" title="Glow Embrace (CTB Girls' Dorm ver.)">
             <validatorSuppress rules="dah-entry-no-consumed;dah-no-progress" />
             <role id="M-20240815T042406" roles="vocal+image" />
-            <nei base="1.0" emotions="MU-0.8:CP-0.2" />
+            <aei base="0.8" emotions="MU-0.8:CP-0.2" />
         </entry>
     </entry>
 
