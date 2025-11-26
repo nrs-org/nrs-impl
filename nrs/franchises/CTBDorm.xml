@@ -686,6 +686,12 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <nei base="0.5" emotions="CP-0.5:MU-0.5" />
+                <writing
+                    character="0.3"
+                    story="0.4"
+                    pacing="0.5"
+                    originality="0.3"
+                />
             </entry>
 
             <!-- aka the karaoke song -->
@@ -712,6 +718,12 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <nei base="0.5" emotions="CP-0.8:MP-0.2" />
+                <writing
+                    character="0.4"
+                    story="0.2"
+                    pacing="0.5"
+                    originality="0.8"
+                />
             </entry>
 
             <entry id="$-4" title="Ramune (CTB Girls' Dorm ver.)">
@@ -720,6 +732,12 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <nei base="0.5" emotions="CP-0.8:MP-0.2" />
+                <writing
+                    character="0.3"
+                    story="0.3"
+                    pacing="0.5"
+                    originality="0.8"
+                />
             </entry>
         </entry>
 
@@ -735,6 +753,12 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <aei base="0.0" emotions="CP-0.5:MU-0.5" />
+                <writing
+                    character="0.1"
+                    story="0.2"
+                    pacing="0.5"
+                    originality="0.8"
+                />
             </entry>
 
             <!-- fuck AI -->
@@ -744,6 +768,12 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <nei base="0.5" emotions="AU" />
+                <writing
+                    character="0.2"
+                    story="0.1"
+                    pacing="0.5"
+                    originality="1.0"
+                />
             </entry>
 
             <!-- alice 2 -->
@@ -753,6 +783,12 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <aei base="0.0" emotions="MU" />
+                <writing
+                    character="0.2"
+                    story="0.5"
+                    pacing="0.5"
+                    originality="0.8"
+                />
             </entry>
 
             <entry id="$-4" title="Kaishin no Ichigeki (CTB Girls' Dorm ver.)">
@@ -761,6 +797,12 @@
                 />
                 <role id="M-20240815T042406" roles="vocal+image" />
                 <aei base="0.5" emotions="MP-0.3:CP-0.5:MU-0.2" />
+                <writing
+                    character="0.5"
+                    story="0.4"
+                    pacing="0.5"
+                    originality="0.8"
+                />
             </entry>
         </entry>
     </entry>
@@ -778,6 +820,7 @@
 
         <!-- escapism -->
         <nei base="0.3" emotions="CP" />
+        <writing character="0.4" story="0.4" pacing="0.6" originality="0.6" />
     </entry>
 
     <!-- inspirations of pjescape -->
