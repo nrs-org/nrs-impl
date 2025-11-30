@@ -333,6 +333,7 @@
             title="FBKINGDOM &quot;Blessing&quot;"
             entrytype="MusicAlbum"
         >
+            <visual type="albumArt" base="0.25" unique="0.4" />
             <!-- suicidio numero -->
             <entry id="$-14" title="Glow Embrace">
                 <music base="0.8" />
@@ -340,6 +341,7 @@
                 <musicConsumedProgress length="3:44" />
                 <remix id="M-20251125T020944-3" />
                 <nei base="0.3" emotions="CP" />
+                <visual type="animatedMV" base="0.5" unique="0.3" />
             </entry>
         </entry>
 
